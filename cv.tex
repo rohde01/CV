@@ -1,0 +1,57 @@
+\documentclass[bib=normal,page2=display]{Code/CV}
+
+\input{Code/Preamble}
+
+% CV header information:
+
+\firstname{Carl-Emil}
+\vonname{Van der}
+\lastname{Rohde}
+%
+\tagline{Danmarks Nationalbank - Research Assistant}
+\photo{2.8cm}{Img/Profile.png}
+\personalinfo{
+  \begin{tabular}{l l}
+  \location{København, Danmark} \tabularnewline
+  \email{cer@rohdee.dk} \tabularnewline
+  \phone{+45 42340578} &
+ 
+  \end{tabular}
+
+}
+
+
+\begin{document}
+
+\nocite{*}
+
+\makecvheader
+
+% Links and summary box:
+
+%% Links:
+\begin{linkheader}
+    \linkedin{www.linkedin.com/in/rohdee}
+    \github{https://github.com/rohde01}
+\end{linkheader}
+
+%% Summary box:
+\begin{Summary}{Profil}
+ \veritem{Økonomisk indsigt} \veritem{Teknisk dygtig} \veritem{Dataformidling} \veritem{Resultatorienteret}
+\end{Summary}
+
+
+% Text:
+
+%% Text, page 1:
+\input{Txt/1-CV-body}
+\input{Txt/p1_sidebar}
+
+\clearpage
+
+%% Text, page 2:
+\input{Txt/2-page2}
+%\input{Txt/p2_Sidebar}
+
+
+\end{document}
