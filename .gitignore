@@ -1,0 +1,57 @@
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+## Build tool directories:
+_minted*
+latex.out/
+
+## Auxiliary and intermediate files:
+*.dvi
+*.xdv
+*,*.pdf
+
+## Generated if empty string is given at "Please type another file name for output:"
+.pdf
+
+## Mac OS specific:
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## VSCode specific:
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## Keep the final PDF
+!cv.pdf  
